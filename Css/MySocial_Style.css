@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(0, 160, 160);
+}
+
+.login-box{
+    /*background-color: #fff;*/
+    display:block;
+    margin:auto;
+    width:350px;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: 0px solid rgb(78 97 35);
+    box-shadow: inset rgb(47 67 26) 4px 4px 10px 0px, rgb(78 97 35) 3px 3px 10px 0px;
+/*rgb(0, 200, 200) 10px 0px 15px 0px */
+}
+
+input{
+    background-color: azure;
+    padding: 10px 10px;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: 0;
+    border-radius: 10px;
+    border:1px solid rgb(47 67 26);
+}
+
+::placeholder{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-login{
+    padding: 10px 0px;
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(0, 160, 160);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-login a{
+    color: #fff;
+}
+
+.btn-signup{
+    padding: 10px 0px;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(0, 184, 0);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: black;
+    margin: 5px;
+}
+
+span{
+    display: block;
+    background-color: azure;
+    width: 40px;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
